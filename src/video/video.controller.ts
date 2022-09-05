@@ -1,17 +1,19 @@
 import {
   Body,
   Controller,
+  Delete,
   Get,
   HttpCode,
   Param,
+  Post,
   Put,
   Query,
   UsePipes,
   ValidationPipe,
 } from "@nestjs/common";
-import { VideoService } from "./video.service";
 import { Auth } from "../auth/decorators/auth.decorator";
-import { VideoDto } from "../video/video.dto";
+import { VideoDto } from "./video.dto";
+import { VideoService } from "./video.service";
 import { CurrentUser } from "../user/user.decorator";
 
 @Controller("video")
@@ -40,7 +42,7 @@ export class VideoController {
   }
 
   @HttpCode(200)
-  @Put()
+  @Post()
   @Auth()
   async createVideo(@CurrentUser("id") id: number) {
     return this.videoService.create(id);
@@ -55,7 +57,7 @@ export class VideoController {
   }
 
   @HttpCode(200)
-  @Put(":id")
+  @Delete(":id")
   @Auth()
   async deleteVideo(@Param("id") id: string) {
     return this.videoService.delete(+id);
