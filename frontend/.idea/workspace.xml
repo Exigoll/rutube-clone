@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5fba874a-bce8-48fb-a1bc-e9325245d5b0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/rutube-v2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/nest-cli.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/app.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/app.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/auth/auth.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/auth/auth.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/auth/auth.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/auth/auth.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/auth/decorators/auth.decorator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/auth/strategies/jwt.strategy.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/comment/comment.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/comment/comment.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/comment/comment.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/comment/comment.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/comment/comment.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/config/jwt.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/config/typeorm.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/media/media.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/media/media.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/media/media.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/media/media.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/user/subscription.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/user/user.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/user/user.decorator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/user/user.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/user/user.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/user/user.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/user/user.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/utils/base.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/video/video.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/video/video.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/video/video.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/video/video.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/video/video.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/test/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/test/jest-e2e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/tsconfig.build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/uploads/avatar/exigoll.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/frontend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/globals.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vercel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-cli.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/app.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/app.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/auth/auth.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/auth/auth.dto.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/auth/auth.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/auth/auth.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/auth/decorators/auth.decorator.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/auth/strategies/jwt.strategy.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/comment/comment.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/comment/comment.dto.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/comment/comment.entity.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/comment/comment.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/comment/comment.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/config/jwt.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/config/typeorm.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/media/media.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/media/media.interface.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/media/media.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/media/media.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/user/subscription.entity.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/user/user.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/user/user.decorator.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/user/user.dto.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/user/user.entity.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/user/user.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/user/user.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/utils/base.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/video/video.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/video/video.dto.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/video/video.entity.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/video/video.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/video/video.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/jest-e2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tsconfig.build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uploads/avatar/exigoll.JPG" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectId" id="2ELtpmUMWO8Bz51V3D9uWaMLByP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Exigoll/Desktop/Projects/rutube-v2/frontend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "yarn",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Exigoll\\Desktop\\Projects\\rutube-v2\\frontend\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "ts.external.directory.path": "C:\\Users\\Exigoll\\Desktop\\Projects\\rutube-v2\\frontend\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Exigoll\Desktop\Projects\rutube-v2\frontend\app\styles" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm lint">
+    <configuration name="npm build" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="npm dev" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="npm lint" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5fba874a-bce8-48fb-a1bc-e9325245d5b0" name="Changes" comment="" />
+      <created>1662386877318</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662386877318</updated>
+      <workItem from="1662386878814" duration="3776000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
