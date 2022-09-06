@@ -69,7 +69,7 @@ module.exports = {
         ".shadow-block": {
           display: "block",
           boxShadow:
-          "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
+          "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 2px -4px rgb(0 0 0 / 0.1)",
           animation: "scaleIn .35s ease-in-out",
           backgroundColor: "#272532"
         }
