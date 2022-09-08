@@ -2,27 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f9fcc40-6fe4-4b69-a2e1-9c11416e307f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/app/components/layout/sidebar/menu/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/components/layout/sidebar/menu/menu.data.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/components/layout/sidebar/menu/menu.interfaces.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/components/pages/home/catalog/catalog.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/components/pages/home/catalog/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/components/pages/home/discover/discover.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/components/pages/home/discover/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/components/pages/home/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/components/ui/Line.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/components/ui/Line.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/hooks/useAuth.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/pages/_document.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/authForm/AuthForm.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/authForm/auth-form.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/authForm/auth-valid.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/authForm/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/icons-right/IconsRight.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/icons-right/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/profile-menu/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/profile-menu/profileMenu.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/search/Search.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/search/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/upload-video/UploadVidedo.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/upload-video/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/components/ui/field/Field.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/components/ui/field/field.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/components/ui/field/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/hooks/useOutside.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/layout/header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/Header.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/app/components/layout/header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/components/layout/sidebar/Sidebar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/sidebar/Sidebar.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/components/layout/sidebar/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/sidebar/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/components/pages/home/catalog/Catalog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/sidebar/menu/Menu.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/components/pages/home/home.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/pages/home/home.interface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/components/pages/home/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/sidebar/menu/MenuItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/layout/sidebar/menu/MenuItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/sidebar/menu/MenuItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/pages/home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/pages/home/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Exigoll/Desktop/Projects/rutube-v2/frontend/app/components/layout/sidebar/menu",
+    "last_opened_file_path": "C:/Users/Exigoll/Desktop/Projects/rutube-v2/frontend/app/components/layout/header",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,13 +63,14 @@
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Exigoll\\Desktop\\Projects\\rutube-v2\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "settings.editor.selected.configurable": "preferences.editor",
     "ts.external.directory.path": "C:\\Users\\Exigoll\\Desktop\\Projects\\rutube-v2\\backend\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Exigoll\Desktop\Projects\rutube-v2\frontend\app\components\layout\header" />
       <recent name="C:\Users\Exigoll\Desktop\Projects\rutube-v2\frontend\app\components\layout\sidebar\menu" />
       <recent name="C:\Users\Exigoll\Desktop\Projects\rutube-v2\frontend\app\components\pages\home\discover" />
       <recent name="C:\Users\Exigoll\Desktop\Projects\rutube-v2\frontend\app\components\layout\sidebar" />
@@ -133,7 +135,8 @@
       <workItem from="1662340721055" duration="13803000" />
       <workItem from="1662386782102" duration="1746000" />
       <workItem from="1662447171210" duration="10041000" />
-      <workItem from="1662512666128" duration="7237000" />
+      <workItem from="1662512666128" duration="10768000" />
+      <workItem from="1662636429734" duration="10957000" />
     </task>
     <servers />
   </component>
