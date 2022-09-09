@@ -2,28 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f9fcc40-6fe4-4b69-a2e1-9c11416e307f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/authForm/AuthForm.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/authForm/auth-form.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/authForm/auth-valid.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/authForm/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/icons-right/IconsRight.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/icons-right/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/profile-menu/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/profile-menu/profileMenu.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/search/Search.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/search/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/upload-video/UploadVidedo.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/upload-video/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/components/ui/field/Field.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/components/ui/field/field.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/components/ui/field/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/hooks/useOutside.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/components/ui/button/Button.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/components/ui/button/button.interfaces.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/components/ui/button/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/components/ui/text-area/TextArea.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/components/ui/text-area/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/components/ui/text-area/text-area.interface.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/components/layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/components/layout/header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/Header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/components/layout/header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/components/layout/sidebar/menu/MenuItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/sidebar/menu/MenuItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/components/pages/home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/pages/home/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/layout/header/authForm/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/authForm/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/layout/header/upload-video/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/upload-video/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/ui/field/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/ui/field/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +124,9 @@
       <workItem from="1662386782102" duration="1746000" />
       <workItem from="1662447171210" duration="10041000" />
       <workItem from="1662512666128" duration="10768000" />
-      <workItem from="1662636429734" duration="10957000" />
+      <workItem from="1662636429734" duration="11139000" />
+      <workItem from="1662670668100" duration="1806000" />
+      <workItem from="1662703024410" duration="2227000" />
     </task>
     <servers />
   </component>

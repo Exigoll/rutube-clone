@@ -1,4 +1,4 @@
-import styles from "./UploadVideo.module.scss";
+import styles from "./UploadVidedo.module.scss";
 import { FC } from "react";
 
 const UploadVideo: FC = () => {

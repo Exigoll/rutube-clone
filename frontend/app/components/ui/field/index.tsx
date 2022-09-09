@@ -2,13 +2,19 @@ import styles from "./Field.module.scss";
 import React, { forwardRef } from "react";
 import { IField } from "./field.interface";
 
-const Field: React.FC = forwardRef<HTMLInputElement, IField>(({ error, type = "text, ...rest" }, ref) => {
+const Field = forwardRef<HTMLInputElement, IField>(
+  ({ error, type = "text", style, ...rest }, ref) => {
     return (
-      <div className={styles.module}>
-        <h1>Field</h1>
+      <div className={styles.input} style={style}>
+        <input ref={ref}
+               type={type}
+               {...rest} />
+        {error && <div className={styles.error}>{error.message}</div>}
       </div>
     );
   },
 );
+
+Field.displayName = "Field";
 
 export default Field;
