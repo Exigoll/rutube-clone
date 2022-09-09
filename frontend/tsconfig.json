@@ -33,7 +33,7 @@
         "providers/*"
       ],
       "@/services/*": [
-        "components/*"
+        "services/*"
       ],
       "@/types/*": [
         "types/*"

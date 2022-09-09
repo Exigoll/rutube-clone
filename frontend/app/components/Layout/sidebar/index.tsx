@@ -2,7 +2,7 @@ import { FC } from "react";
 
 import styles from "./Sidebar.module.scss";
 import Link from "next/link";
-import Menu from "@/services/layout/sidebar/menu";
+import Menu from "@/services/Layout/sidebar/menu";
 import { menu } from "./menu/menu.data";
 
 const Sidebar: FC = () => {

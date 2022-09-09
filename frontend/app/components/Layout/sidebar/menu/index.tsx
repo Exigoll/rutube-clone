@@ -1,8 +1,8 @@
 import { FC } from "react";
-import { IMenuItem } from "@/services/layout/sidebar/menu/menu.interfaces";
+import { IMenuItem } from "@/services/Layout/sidebar/menu/menu.interfaces";
 
 import styles from "./Menu.module.scss";
-import MenuItem from "@/services/layout/sidebar/menu/MenuItem";
+import MenuItem from "@/services/Layout/sidebar/menu/MenuItem";
 import Line from "@/services/ui/Line";
 
 interface IMenu {

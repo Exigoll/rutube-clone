@@ -1,5 +1,5 @@
 import { axiosClassic } from "../../api/axios";
-import { IAuthData } from "./auth.helper";
+import { IAuthData } from "@/services/auth/auth.helper";
 
 const AUTH = "auth";
 

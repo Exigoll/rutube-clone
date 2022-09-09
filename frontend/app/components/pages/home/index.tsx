@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-import Index from "@/services/layout";
+import Index from "@/services/Layout";
 import Discover from "@/services/pages/home/discover";
 import Catalog from "@/services/pages/home/catalog";
 
