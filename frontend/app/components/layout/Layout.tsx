@@ -1,11 +1,15 @@
 import Head from "next/head";
 import React from "react";
 
-import styles from "./layout.module.scss";
 import Sidebar from "@/components/layout/sidebar/Sidebar";
-import Header from "./header/Header";
 
-const Layout: React.FC<React.PropsWithChildren<{ title: string }>> = ({ title, children }) => {
+import Header from "./header/Header";
+import styles from "./layout.module.scss";
+
+const Layout: React.FC<React.PropsWithChildren<{ title: string }>> = ({
+  title,
+  children,
+}) => {
   return (
     <>
       <Head>
@@ -15,9 +19,7 @@ const Layout: React.FC<React.PropsWithChildren<{ title: string }>> = ({ title, c
         <Sidebar />
         <section className={styles.content}>
           <Header />
-          <div className={styles.wrapper}>
-            {children}
-          </div>
+          <div className={styles.wrapper}>{children}</div>
         </section>
       </main>
     </>

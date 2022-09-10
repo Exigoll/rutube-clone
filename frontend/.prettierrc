@@ -16,8 +16,10 @@
     "^@/hooks/(.*)$",
     "^@/store/(.*)$",
     "^@/utils/(.*)$",
-    "^@../(.*)$",
-    "^@./(.*)$",
+    "^../(.*)$",
+    "^./(.*)$",
     "(.scss)$"
-  ]
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
 }

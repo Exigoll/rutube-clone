@@ -1,9 +1,12 @@
 import React from "react";
-import styles from "./IconsRight.module.scss";
-import { useAuth } from "@/hooks/useAuth";
+
+import AuthForm from "@/components/layout/header/auth-form/AuthForm";
 import ProfileMenu from "@/components/layout/header/profile-menu/ProfileMenu";
 import UploadVideo from "@/components/layout/header/upload-video/UploadVideo";
-import AuthForm from "@/components/layout/header/auth-form/AuthForm";
+
+import { useAuth } from "@/hooks/useAuth";
+
+import styles from "./IconsRight.module.scss";
 
 const IconsRight: React.FC = () => {
   const { user } = useAuth();
