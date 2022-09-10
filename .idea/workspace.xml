@@ -2,45 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f9fcc40-6fe4-4b69-a2e1-9c11416e307f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/profile-menu/ProfileMenu.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/api/axios.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/api/axios.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/components/layout/header/auth-form/AuthForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/auth-form/AuthForm.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/app/components/layout/header/profile-menu/ProfileMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/profile-menu/ProfileMenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/components/layout/header/search/Search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/search/Search.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/components/layout/header/upload-video/UploadVideo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/upload-video/UploadVideo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/components/layout/sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/sidebar/Sidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/components/layout/sidebar/menu/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/sidebar/menu/Menu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/components/layout/sidebar/menu/MenuItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/sidebar/menu/MenuItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/components/layout/sidebar/menu/menu.data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/sidebar/menu/menu.data.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/components/pages/home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/pages/home/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/components/ui/Line.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/ui/Line.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/components/ui/button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/ui/button/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/components/ui/field/Field.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/ui/field/Field.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/components/ui/field/field.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/ui/field/field.interface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/components/ui/text-area/TextArea.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/ui/text-area/TextArea.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/hooks/useActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/hooks/useActions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/hooks/useTypedSelector.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/hooks/useTypedSelector.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/providers/AuthProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/providers/AuthProvider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/providers/CheckRole.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/providers/CheckRole.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/services/auth/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/services/auth/auth.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/services/user.services.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/services/user.services.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/services/video.services.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/services/video.services.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/store/api/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/store/api/api.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/store/api/comment.api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/store/api/comment.api.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/store/api/video.api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/store/api/video.api.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/store/auth/auth.actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/store/auth/auth.actions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/store/auth/auth.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/store/auth/auth.interface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/store/auth/auth.slice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/store/auth/auth.slice.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/store/middlewares/error.middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/store/middlewares/error.middleware.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/store/root-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/store/root-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/store/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/types/comment.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/types/comment.interface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/types/user.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/types/user.interface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/types/video.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/types/video.interface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/utils/api.utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/utils/api.utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/_document.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/_document.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/layout/header/profile-menu/profileMenu.module.scss" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +123,7 @@
       <workItem from="1662721153850" duration="5141000" />
       <workItem from="1662728133497" duration="14806000" />
       <workItem from="1662789999948" duration="8227000" />
-      <workItem from="1662802900305" duration="6107000" />
+      <workItem from="1662802900305" duration="11851000" />
     </task>
     <servers />
   </component>
