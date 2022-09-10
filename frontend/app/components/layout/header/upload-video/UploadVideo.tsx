@@ -1,5 +1,6 @@
-import styles from "./UploadVidedo.module.scss";
 import React from "react";
+
+import styles from "./UploadVidedo.module.scss";
 
 const UploadVideo: React.FC = () => {
   return (
@@ -7,6 +8,6 @@ const UploadVideo: React.FC = () => {
       <h1>UploadVideo</h1>
     </div>
   );
-}
+};
 
 export default UploadVideo;

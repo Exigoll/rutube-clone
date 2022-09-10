@@ -1,5 +1,6 @@
 import { IBase } from "@/types/base.interface";
 import { IVideo } from "@/types/video.interface";
+
 import { IUser } from "./user.interface";
 
 export interface IComment extends IBase {

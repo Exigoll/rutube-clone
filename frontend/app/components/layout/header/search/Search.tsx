@@ -1,5 +1,6 @@
-import styles from "./Search.module.scss";
 import React from "react";
+
+import styles from "./Search.module.scss";
 
 const Search: React.FC = () => {
   return (
@@ -7,6 +8,6 @@ const Search: React.FC = () => {
       <h1>Search</h1>
     </div>
   );
-}
+};
 
 export default Search;

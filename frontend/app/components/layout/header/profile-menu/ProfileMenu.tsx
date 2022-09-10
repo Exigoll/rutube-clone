@@ -4,8 +4,6 @@ import { useAuth } from "@/hooks/useAuth";
 
 import { api } from "@/store/api/api";
 
-import styles from "./ProfileMenu.module.scss";
-
 const ProfileMenu: React.FC = () => {
   const { user } = useAuth();
 
@@ -13,11 +11,9 @@ const ProfileMenu: React.FC = () => {
     skip: !user,
   });
 
-  return (
-    <div className={styles.s}>
-      <h1>ProfileMenu</h1>
-    </div>
-  );
+  if (isLoading) return null;
+
+  return <div>{data?.name}</div>;
 };
 
 export default ProfileMenu;

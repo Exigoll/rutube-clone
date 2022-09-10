@@ -1,17 +1,18 @@
 import type { AppProps } from "next/app";
+import NextProgressBar from "nextjs-progressbar";
+import React from "react";
 import { Provider } from "react-redux";
 import ReduxToastr from "react-redux-toastr";
-import NextProgressBar from "nextjs-progressbar";
 import { PersistGate } from "redux-persist/integration/react";
+
+import AuthProvider from "@/providers/AuthProvider";
+import { TypeComponentAuthFields } from "@/providers/private-route.interface";
 
 import { persistor, store } from "@/store/store";
 
 import "../app/styles/globals.scss";
-import React from "react";
-import AuthProvider from "@/providers/AuthProvider";
-import { TypeComponentAuthFields } from "@/providers/private-route.interface";
 
-type TypeAppProps = AppProps & TypeComponentAuthFields
+type TypeAppProps = AppProps & TypeComponentAuthFields;
 
 function MyApp({ Component, pageProps }: TypeAppProps) {
   return (
@@ -33,7 +34,8 @@ function MyApp({ Component, pageProps }: TypeAppProps) {
               closeOnToastrClick
               timeOut={4000}
               transitionIn="fadeIn"
-              transitionOut="fadeOut" />
+              transitionOut="fadeOut"
+            />
           </AuthProvider>
         </PersistGate>
       </Provider>

@@ -1,13 +1,14 @@
 import React from "react";
-import { IMenuItem } from "@/components/layout/sidebar/menu/menu.interfaces";
 
-import styles from "./Menu.module.scss";
 import MenuItem from "@/components/layout/sidebar/menu/MenuItem";
+import { IMenuItem } from "@/components/layout/sidebar/menu/menu.interfaces";
 import Line from "@/components/ui/Line";
 
+import styles from "./Menu.module.scss";
+
 interface IMenu {
-  title: string,
-  items: IMenuItem[],
+  title: string;
+  items: IMenuItem[];
 }
 
 const Menu: React.FC<IMenu> = ({ title, items }) => {

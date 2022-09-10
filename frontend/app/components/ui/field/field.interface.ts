@@ -5,7 +5,7 @@ export interface IFieldProps {
   error?: FieldError;
 }
 
-type TypeInputPropsField = React.InputHTMLAttributes<HTMLInputElement> & IFieldProps;
+type TypeInputPropsField = React.InputHTMLAttributes<HTMLInputElement> &
+  IFieldProps;
 
-export interface IField extends TypeInputPropsField {
-}
+export interface IField extends TypeInputPropsField {}

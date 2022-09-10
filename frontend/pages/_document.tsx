@@ -11,8 +11,8 @@ export default function Document() {
         <meta name="apple-mobile-web-app-status-bar-style" content="#FF7652" />
       </Head>
       <body>
-      <Main />
-      <NextScript />
+        <Main />
+        <NextScript />
       </body>
     </Html>
   );

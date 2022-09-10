@@ -1,5 +1,6 @@
-import { Middleware, MiddlewareAPI } from "redux";
 import { isRejectedWithValue } from "@reduxjs/toolkit";
+import { Middleware, MiddlewareAPI } from "redux";
+
 import { toastError } from "@/utils/api.utils";
 
 export const rtkQueryErrorLogger: Middleware =
