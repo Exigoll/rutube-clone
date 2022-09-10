@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f9fcc40-6fe4-4b69-a2e1-9c11416e307f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/app/components/ui/button/Button.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/components/ui/button/button.interfaces.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/components/ui/button/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/components/ui/text-area/TextArea.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/components/ui/text-area/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/components/ui/text-area/text-area.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/providers/AuthProvider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/providers/CheckRole.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/providers/private-route.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/pages/studio.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/components/layout/header/authForm/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/authForm/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/components/layout/header/upload-video/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/upload-video/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/components/ui/field/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/ui/field/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.prettierrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/_app.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +20,6 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="OptimizeOnSaveOptions">
-    <option name="myRunOnSave" value="true" />
   </component>
   <component name="ProjectId" id="2EFw4qwyX0PX4S4BHuMhq3EG8DX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -41,18 +35,17 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Exigoll/Desktop/Projects/rutube-v2/frontend/app/components/layout/header",
+    "last_opened_file_path": "C:/Users/Exigoll/Desktop/Projects/rutube-v2/frontend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.standard": "",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Exigoll\\Desktop\\Projects\\rutube-v2\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "ts.external.directory.path": "C:\\Users\\Exigoll\\Desktop\\Projects\\rutube-v2\\backend\\node_modules\\typescript\\lib",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Exigoll\\Desktop\\Projects\\rutube-v2\\frontend",
+    "settings.editor.selected.configurable": "editing.templates",
+    "ts.external.directory.path": "C:\\Users\\Exigoll\\Desktop\\Projects\\rutube-v2\\frontend\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -70,7 +63,7 @@
       <recent name="C:\Users\Exigoll\Desktop\Projects\rutube-v2\src\user" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.start:dev (1)">
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/frontend/package.json" />
       <command value="run" />
@@ -103,8 +96,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.start:dev (1)" />
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.start:dev" />
       </list>
     </recent_temporary>
@@ -126,7 +119,10 @@
       <workItem from="1662512666128" duration="10768000" />
       <workItem from="1662636429734" duration="11139000" />
       <workItem from="1662670668100" duration="1806000" />
-      <workItem from="1662703024410" duration="2227000" />
+      <workItem from="1662703024410" duration="8426000" />
+      <workItem from="1662721153850" duration="5141000" />
+      <workItem from="1662728133497" duration="14806000" />
+      <workItem from="1662789999948" duration="4025000" />
     </task>
     <servers />
   </component>
