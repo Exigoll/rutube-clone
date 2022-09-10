@@ -1,7 +1,7 @@
 import styles from "./Search.module.scss";
-import { FC } from "react";
+import React from "react";
 
-const Search: FC = () => {
+const Search: React.FC = () => {
   return (
     <div className={styles.s}>
       <h1>Search</h1>

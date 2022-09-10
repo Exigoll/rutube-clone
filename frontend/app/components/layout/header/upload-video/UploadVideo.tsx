@@ -1,7 +1,7 @@
 import styles from "./UploadVidedo.module.scss";
-import { FC } from "react";
+import React from "react";
 
-const UploadVideo: FC = () => {
+const UploadVideo: React.FC = () => {
   return (
     <div className={styles.s}>
       <h1>UploadVideo</h1>

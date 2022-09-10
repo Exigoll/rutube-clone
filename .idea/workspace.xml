@@ -2,13 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f9fcc40-6fe4-4b69-a2e1-9c11416e307f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/app/providers/AuthProvider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/providers/CheckRole.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/providers/private-route.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/pages/studio.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/components/pages/home/Home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/store/api/api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/store/api/comment.api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/store/api/video.api.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.prettierrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/Layout/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/Layout/Header/auth-form/AuthForm.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/auth-form/AuthForm.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/Layout/Header/auth-form/AuthForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/auth-form/AuthForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/Layout/Header/auth-form/auth-form.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/auth-form/auth-form.interface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/Layout/Header/auth-form/auth-valid.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/auth-form/auth-valid.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/Layout/Header/icons-right/IconsRight.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/icons-right/IconsRight.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/Layout/Header/icons-right/IconsRight.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/icons-right/IconsRight.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/Layout/Header/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/Layout/Header/profile-menu/ProfileMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/profile-menu/ProfileMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/Layout/Header/profile-menu/profileMenu.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/profile-menu/profileMenu.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/Layout/Header/search/Search.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/search/Search.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/Layout/Header/search/Search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/search/Search.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/Layout/Header/upload-video/UploadVidedo.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/upload-video/UploadVidedo.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/Layout/Header/upload-video/UploadVideo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/header/upload-video/UploadVideo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/Layout/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/Layout/layout.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/layout.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/Layout/sidebar/Sidebar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/sidebar/Sidebar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/Layout/sidebar/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/sidebar/Sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/Layout/sidebar/menu/Menu.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/sidebar/menu/Menu.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/Layout/sidebar/menu/MenuItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/sidebar/menu/MenuItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/Layout/sidebar/menu/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/sidebar/menu/Menu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/Layout/sidebar/menu/menu.data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/sidebar/menu/menu.data.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/Layout/sidebar/menu/menu.interfaces.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/layout/sidebar/menu/menu.interfaces.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/pages/home/catalog/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/pages/home/catalog/Catalog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/pages/home/discover/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/pages/home/discover/Discover.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/pages/home/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/ui/Line.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/ui/Line.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/components/ui/field/Field.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/components/ui/field/Field.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/store/auth/auth.actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/store/auth/auth.actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/store/middlewares/error.middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/store/middlewares/error.middleware.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/store/root-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/store/root-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/store/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,8 +128,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start:dev (1)" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.start:dev (1)" />
         <item itemvalue="npm.start:dev" />
       </list>
     </recent_temporary>
@@ -122,7 +154,7 @@
       <workItem from="1662703024410" duration="8426000" />
       <workItem from="1662721153850" duration="5141000" />
       <workItem from="1662728133497" duration="14806000" />
-      <workItem from="1662789999948" duration="4025000" />
+      <workItem from="1662789999948" duration="7351000" />
     </task>
     <servers />
   </component>

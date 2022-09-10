@@ -1,6 +1,6 @@
-import { FC } from "react";
+import React from "react";
 
-const Discover: FC = () => {
+const Discover: React.FC = () => {
   return (
     <div>
       <h1>Discover</h1>

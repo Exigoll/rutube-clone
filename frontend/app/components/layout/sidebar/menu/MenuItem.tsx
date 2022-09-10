@@ -1,4 +1,4 @@
-import { FC } from "react";
+import React from "react";
 import { IMenuItem } from "./menu.interfaces";
 import { useAuth } from "@/hooks/useAuth";
 import Link from "next/link";
@@ -7,7 +7,7 @@ import { useRouter } from "next/router";
 import styles from "./Menu.module.scss";
 import Image from "next/image";
 
-const MenuItem: FC<{ item: IMenuItem }> = ({ item }) => {
+const MenuItem: React.FC<{ item: IMenuItem }> = ({ item }) => {
   const { user } = useAuth();
   const { asPath } = useRouter();
 

@@ -1,6 +1,6 @@
-import { FC } from "react";
+import React from "react";
 
-const Catalog: FC = () => {
+const Catalog: React.FC = () => {
   return (
     <div>
       <h1>Catalog</h1>

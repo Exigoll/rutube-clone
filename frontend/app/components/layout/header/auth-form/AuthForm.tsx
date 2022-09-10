@@ -6,10 +6,10 @@ import { useOutside } from "@/hooks/useOutside";
 import { useActions } from "@/hooks/useActions";
 import { useAuth } from "@/hooks/useAuth";
 
-import { IAuthFields } from "@/components/Layout/Header/auth-form/auth-form.interface";
-import { validEmail } from "@/components/Layout/Header/auth-form/auth-valid";
-import Button from "@/services/ui/button/Button";
-import Field from "@/services/ui/field/Field";
+import { IAuthFields } from "@/components/layout/header/auth-form/auth-form.interface";
+import { validEmail } from "@/components/layout/header/auth-form/auth-valid";
+import Button from "@/components/ui/button/Button";
+import Field from "@/components/ui/field/Field";
 
 import styles from "./AuthForm.module.scss";
 import stylesIcon from "../icons-right/IconsRight.module.scss";

@@ -1,7 +1,7 @@
+import React from "react";
 import styles from "./Line.module.scss";
-import { FC } from "react";
 
-const Line: FC = () => {
+const Line: React.FC = () => {
   return <div className={styles.line}></div>
 }
 

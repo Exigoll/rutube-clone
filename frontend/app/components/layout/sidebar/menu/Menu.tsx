@@ -1,16 +1,16 @@
-import { FC } from "react";
-import { IMenuItem } from "@/services/Layout/sidebar/menu/menu.interfaces";
+import React from "react";
+import { IMenuItem } from "@/components/layout/sidebar/menu/menu.interfaces";
 
 import styles from "./Menu.module.scss";
-import MenuItem from "@/services/Layout/sidebar/menu/MenuItem";
-import Line from "@/services/ui/Line";
+import MenuItem from "@/components/layout/sidebar/menu/MenuItem";
+import Line from "@/components/ui/Line";
 
 interface IMenu {
   title: string,
   items: IMenuItem[],
 }
 
-const Menu: FC<IMenu> = ({ title, items }) => {
+const Menu: React.FC<IMenu> = ({ title, items }) => {
   return (
     <nav className={styles.menu_sidebar}>
       <h3>{title}</h3>

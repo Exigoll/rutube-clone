@@ -1,7 +1,7 @@
 import styles from "./ProfileMenu.module.scss";
-import { FC } from "react";
+import React from "react";
 
-const ProfileMenu: FC = () => {
+const ProfileMenu: React.FC = () => {
   return (
     <div className={styles.s}>
       <h1>ProfileMenu</h1>

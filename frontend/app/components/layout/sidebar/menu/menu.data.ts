@@ -1,4 +1,4 @@
-import { IMenuItem } from "@/services/Layout/sidebar/menu/menu.interfaces";
+import { IMenuItem } from "@/services/layout/sidebar/menu/menu.interfaces";
 import { HiChartBar, HiCollection, HiHome, HiStar } from "react-icons/hi";
 
 export const menu: IMenuItem[] = [
